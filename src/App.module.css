@@ -1,0 +1,17 @@
+main {
+  display: flex;
+  flex: 0 0 100%;
+  flex-flow: row nowrap;
+  min-height: 100%;
+  width: 100%;
+}
+
+header {
+  flex: 0 0 100%;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  font-weight: 500;
+  margin: 0;
+}

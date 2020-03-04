@@ -1,1 +1,3 @@
-# researchers-data
+#### Assumptions
+
+* Researcher's ID is unique

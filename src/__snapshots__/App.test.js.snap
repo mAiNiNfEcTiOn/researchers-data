@@ -1,0 +1,571 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App renders default layout without the chart 1`] = `
+<div>
+  <header
+    class="header"
+  >
+    <h1>
+      Prominent Researchers
+    </h1>
+  </header>
+  <main
+    class="main"
+  >
+    <section
+      class="researchers"
+    >
+      <nav>
+        <ul>
+          <li
+            class="researcherCard"
+          >
+            <a
+              class="researcherCardLink"
+              href="/researcher/10005"
+            >
+              <div
+                class="researcherCardAvatar"
+              />
+              <div
+                class="researcherCardData"
+              >
+                <h2>
+                  John Doe
+                </h2>
+                <p
+                  class="affiliation"
+                >
+                  California Institute of Technology
+                </p>
+                <p
+                  class="stats"
+                >
+                  493
+                   Outputs · 
+                  1385
+                   Citations
+                </p>
+              </div>
+            </a>
+          </li>
+          <li
+            class="researcherCard"
+          >
+            <a
+              class="researcherCardLink"
+              href="/researcher/10007"
+            >
+              <div
+                class="researcherCardAvatar"
+              />
+              <div
+                class="researcherCardData"
+              >
+                <h2>
+                  Joe Bloggs
+                </h2>
+                <p
+                  class="affiliation"
+                >
+                  Harvard University
+                </p>
+                <p
+                  class="stats"
+                >
+                  443
+                   Outputs · 
+                  1228
+                   Citations
+                </p>
+              </div>
+            </a>
+          </li>
+          <li
+            class="researcherCard"
+          >
+            <a
+              class="researcherCardLink"
+              href="/researcher/10035"
+            >
+              <div
+                class="researcherCardAvatar"
+              />
+              <div
+                class="researcherCardData"
+              >
+                <h2>
+                  Jane Doe
+                </h2>
+                <p
+                  class="affiliation"
+                >
+                  Massachusetts Institute of Technology
+                </p>
+                <p
+                  class="stats"
+                >
+                  393
+                   Outputs · 
+                  1126
+                   Citations
+                </p>
+              </div>
+            </a>
+          </li>
+          <li
+            class="researcherCard"
+          >
+            <a
+              class="researcherCardLink"
+              href="/researcher/10012"
+            >
+              <div
+                class="researcherCardAvatar"
+              />
+              <div
+                class="researcherCardData"
+              >
+                <h2>
+                  Tom Smith
+                </h2>
+                <p
+                  class="affiliation"
+                >
+                  Stanford University
+                </p>
+                <p
+                  class="stats"
+                >
+                  368
+                   Outputs · 
+                  1092
+                   Citations
+                </p>
+              </div>
+            </a>
+          </li>
+          <li
+            class="researcherCard"
+          >
+            <a
+              class="researcherCardLink"
+              href="/researcher/10023"
+            >
+              <div
+                class="researcherCardAvatar"
+              />
+              <div
+                class="researcherCardData"
+              >
+                <h2>
+                  Harry Stone
+                </h2>
+                <p
+                  class="affiliation"
+                >
+                  University of Oxford
+                </p>
+                <p
+                  class="stats"
+                >
+                  343
+                   Outputs · 
+                  1032
+                   Citations
+                </p>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </section>
+  </main>
+</div>
+`;
+
+exports[`App renders empty when axios returns an error 1`] = `
+<div>
+  <div>
+    An error has occurred!
+  </div>
+</div>
+`;
+
+exports[`App uses axios if the REACT_APP_API_URL is set 1`] = `
+<div>
+  <header
+    class="header"
+  >
+    <h1>
+      Prominent Researchers
+    </h1>
+  </header>
+  <main
+    class="main"
+  >
+    <section
+      class="researchers"
+    >
+      <nav>
+        <ul>
+          <li
+            class="researcherCard"
+          >
+            <a
+              class="researcherCardLink"
+              href="/researcher/10005"
+            >
+              <div
+                class="researcherCardAvatar"
+              />
+              <div
+                class="researcherCardData"
+              >
+                <h2>
+                  John Doe
+                </h2>
+                <p
+                  class="affiliation"
+                >
+                  California Institute of Technology
+                </p>
+                <p
+                  class="stats"
+                >
+                  493
+                   Outputs · 
+                  1385
+                   Citations
+                </p>
+              </div>
+            </a>
+          </li>
+          <li
+            class="researcherCard"
+          >
+            <a
+              class="researcherCardLink"
+              href="/researcher/10007"
+            >
+              <div
+                class="researcherCardAvatar"
+              />
+              <div
+                class="researcherCardData"
+              >
+                <h2>
+                  Joe Bloggs
+                </h2>
+                <p
+                  class="affiliation"
+                >
+                  Harvard University
+                </p>
+                <p
+                  class="stats"
+                >
+                  443
+                   Outputs · 
+                  1228
+                   Citations
+                </p>
+              </div>
+            </a>
+          </li>
+          <li
+            class="researcherCard"
+          >
+            <a
+              class="researcherCardLink researcherCardSelected"
+              href="/"
+            >
+              <div
+                class="researcherCardAvatar"
+              />
+              <div
+                class="researcherCardData"
+              >
+                <h2>
+                  Jane Doe
+                </h2>
+                <p
+                  class="affiliation"
+                >
+                  Massachusetts Institute of Technology
+                </p>
+                <p
+                  class="stats"
+                >
+                  393
+                   Outputs · 
+                  1126
+                   Citations
+                </p>
+              </div>
+            </a>
+          </li>
+          <li
+            class="researcherCard"
+          >
+            <a
+              class="researcherCardLink"
+              href="/researcher/10012"
+            >
+              <div
+                class="researcherCardAvatar"
+              />
+              <div
+                class="researcherCardData"
+              >
+                <h2>
+                  Tom Smith
+                </h2>
+                <p
+                  class="affiliation"
+                >
+                  Stanford University
+                </p>
+                <p
+                  class="stats"
+                >
+                  368
+                   Outputs · 
+                  1092
+                   Citations
+                </p>
+              </div>
+            </a>
+          </li>
+          <li
+            class="researcherCard"
+          >
+            <a
+              class="researcherCardLink"
+              href="/researcher/10023"
+            >
+              <div
+                class="researcherCardAvatar"
+              />
+              <div
+                class="researcherCardData"
+              >
+                <h2>
+                  Harry Stone
+                </h2>
+                <p
+                  class="affiliation"
+                >
+                  University of Oxford
+                </p>
+                <p
+                  class="stats"
+                >
+                  343
+                   Outputs · 
+                  1032
+                   Citations
+                </p>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </section>
+    <section
+      class="researcherData"
+    >
+      <canvas />
+    </section>
+  </main>
+</div>
+`;
+
+exports[`App when selecting the a researcher it displays his/her data in the chart 1`] = `
+<div>
+  <header
+    class="header"
+  >
+    <h1>
+      Prominent Researchers
+    </h1>
+  </header>
+  <main
+    class="main"
+  >
+    <section
+      class="researchers"
+    >
+      <nav>
+        <ul>
+          <li
+            class="researcherCard"
+          >
+            <a
+              class="researcherCardLink"
+              href="/researcher/10005"
+            >
+              <div
+                class="researcherCardAvatar"
+              />
+              <div
+                class="researcherCardData"
+              >
+                <h2>
+                  John Doe
+                </h2>
+                <p
+                  class="affiliation"
+                >
+                  California Institute of Technology
+                </p>
+                <p
+                  class="stats"
+                >
+                  493
+                   Outputs · 
+                  1385
+                   Citations
+                </p>
+              </div>
+            </a>
+          </li>
+          <li
+            class="researcherCard"
+          >
+            <a
+              class="researcherCardLink"
+              href="/researcher/10007"
+            >
+              <div
+                class="researcherCardAvatar"
+              />
+              <div
+                class="researcherCardData"
+              >
+                <h2>
+                  Joe Bloggs
+                </h2>
+                <p
+                  class="affiliation"
+                >
+                  Harvard University
+                </p>
+                <p
+                  class="stats"
+                >
+                  443
+                   Outputs · 
+                  1228
+                   Citations
+                </p>
+              </div>
+            </a>
+          </li>
+          <li
+            class="researcherCard"
+          >
+            <a
+              class="researcherCardLink researcherCardSelected"
+              href="/"
+            >
+              <div
+                class="researcherCardAvatar"
+              />
+              <div
+                class="researcherCardData"
+              >
+                <h2>
+                  Jane Doe
+                </h2>
+                <p
+                  class="affiliation"
+                >
+                  Massachusetts Institute of Technology
+                </p>
+                <p
+                  class="stats"
+                >
+                  393
+                   Outputs · 
+                  1126
+                   Citations
+                </p>
+              </div>
+            </a>
+          </li>
+          <li
+            class="researcherCard"
+          >
+            <a
+              class="researcherCardLink"
+              href="/researcher/10012"
+            >
+              <div
+                class="researcherCardAvatar"
+              />
+              <div
+                class="researcherCardData"
+              >
+                <h2>
+                  Tom Smith
+                </h2>
+                <p
+                  class="affiliation"
+                >
+                  Stanford University
+                </p>
+                <p
+                  class="stats"
+                >
+                  368
+                   Outputs · 
+                  1092
+                   Citations
+                </p>
+              </div>
+            </a>
+          </li>
+          <li
+            class="researcherCard"
+          >
+            <a
+              class="researcherCardLink"
+              href="/researcher/10023"
+            >
+              <div
+                class="researcherCardAvatar"
+              />
+              <div
+                class="researcherCardData"
+              >
+                <h2>
+                  Harry Stone
+                </h2>
+                <p
+                  class="affiliation"
+                >
+                  University of Oxford
+                </p>
+                <p
+                  class="stats"
+                >
+                  343
+                   Outputs · 
+                  1032
+                   Citations
+                </p>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </section>
+    <section
+      class="researcherData"
+    >
+      <canvas />
+    </section>
+  </main>
+</div>
+`;

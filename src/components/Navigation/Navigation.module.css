@@ -1,0 +1,64 @@
+.researchers {
+  display: flex;
+  flex: 0 0 30%;
+  margin-right: 30px;
+}
+
+.researchers nav {
+  display: flex;
+  flex: 0 0 100%;
+}
+
+.researchers ul {
+  display: flex;
+  flex-flow: column;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.researcherCard {
+  display: flex;
+  flex-flow: column;
+  margin-bottom: 10px;
+}
+
+.researcherCardLink, .researcherCardLink:visited {
+  background-color: #FFF;
+  border: solid 1px black;
+  color: black;
+  text-decoration: none;
+  display: flex;
+  flex-flow: row nowrap;
+  padding: 5px;
+}
+
+.researcherCardLink.researcherCardSelected {
+  filter: invert(1);
+}
+
+.researcherCardAvatar {
+  background: #EEE;
+  background-image: url(/assets/images/avatar.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex: 0 0 74px;
+  height: 74px;
+  margin-right: 5px;
+}
+
+.researcherCardData {
+  flex: 1 1 100%;
+}
+
+.researcherCardData h2 {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.researcherCardData p {
+  margin: 5px 0;
+}
